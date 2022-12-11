@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+<title>Blueya.co</title>
+
+<style>
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: grey;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: lightblue;
+}
+.form
+ {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: grid;
+  justify-content: center;
+  background: whitesmoke;
+  padding: 50px;
+            }
+    
+.blank {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+            }
+
+ .text {
+    height: 15px;
+    width: 250px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+            }
+    
+</style>
+
+
+
+</head>
+<body>
+  <form >
+    <div class="form">
+      <h1 class="header">Blueya.Co</h1>
+      <p>Just fill this form and you just one step away to buy your desired clothes.</p>
+      <hr>
+      <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter username" name="username" id="username" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <a href="login.html"><button type="button" class="cancelbtn">Cancel</button></a>
+        <a ><button type="button" class="signupbtn" onclick="signup()">Sign Up</button></a>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div>
+  <center><strong><label id="msg" style="color: #f44336;" for="message"></label></strong></center>
+</div>
+<script  src="jsfile/sign.js"></script>
+
+</div>
+
+</body>
+</html>

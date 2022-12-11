@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blueya.co</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+
+}
+.dropbtn {
+  background-color: #374937;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #8f8f8f;
+}
+</style>
+</head>
+<body>
+<div class="dropdown" style="float:left;">
+  <button class="dropbtn">Category</button>
+  <div class="dropdown-content" style="left:0;">
+  <a href="shirthp.html">Shirt</a>
+  <a href="sweatshirthp.html">Sweatshirt</a>
+  <a href="windbreakerhp.html">Windbreaker</a>
+  <a href="pantshp.html">Pants</a>
+  <a href="hoodiehp.html">Hoodie</a>
+  </div>
+  </div>
+
+<div class="w3-content" style="max-width:1500px">
+
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <h1 class="w3-xlarge">WELCOME TO THE SHIRT SECTION</h1>
+  
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="shirthp.html" class="w3-bar-item w3-button w3-light-grey">Shirt</a>
+      <a href="sweatshirthp.html" class="w3-bar-item w3-button">Sweatshirt</a>
+      <a href="windbreakerhp.html" class="w3-bar-item w3-button">Windbreaker</a>
+      <a href="pantshp.html" class="w3-bar-item w3-button">Pants</a>
+      <a href="hoodiehp.html" class="w3-bar-item w3-button w3-hide-small">Hoodie</a>
+    </div>
+  </div>
+
+  <div>
+    <a class= "cart" href="cart.html">
+      <i class="fa fa-cart-plus"></i> Cart <span> 0 </span>
+      </a>
+      </div>
+</header>
+
+<div class="w3-row-padding  w3-center" style="margin-bottom:128px">
+    <h1 class="w3-xlarge">CHOOSE THE ONE THAT CATHES YOUR EYES</h1></br>
+
+    
+  <div class="w3-half">
+    <div class="card">
+        <img src="pic/shirt1.jpg" alt="shirt1" style="width:50%">
+        <h1>Korean shirt</h1>
+        <p class="price">RM 29.90</p>
+        <p>Mde out of cotton and very comfortable.</p>
+        <p><button onclick="window.location.href='detailhtml/koreanshirtdetail.html';">Detail</button> <button class="add-cart button">Add to Cart</button></p>
+      </div>
+
+      <div class="card">
+        <img src="pic/stussyshirt.jpg" alt="stussy" style="width:50%">
+        <h1>White stussy shirt</h1>
+        <p class="price">RM39.90</p>
+        <p>style your shirt with this awesome oversize shirt..</p>
+        <p><button  onclick="window.location.href='detailhtml/stussydetail.html';">Detail</button> <button class="add-cart button">Add to Cart</button></p>
+      </div>
+      
+    
+  </div>
+
+  <div class="w3-half">
+    <div class="card">
+        <img src="pic/champshirt.jpg" alt="champion" style="width:50%">
+        <h1>Centered champion shirt</h1>
+        <p class="price">RM 34.90</p>
+        <p>Be champion with this shirt..</p>
+        <p><button onclick="window.location.href='detailhtml/champdetail.html';">Detail</button> <button class="add-cart button">Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="pic/thrashershirt.jpg" alt="Trash" style="width:50%">
+        <h1>Thrasher shirt</h1>
+        <p class="price">RM89.90</p>
+        <p>Trash everyone elses shirt with this!!</p>
+        <p><button onclick="window.location.href='detailhtml/trasherdetail.html';">Detail</button> <button class="add-cart button">Add to Cart</button></p>
+      </div>
+  </div>
+</div>
+  
+</div>
+
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>SINCE 2020</p>
+</footer>
+
+<script src="jsfile/shirtcart.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  height: 50%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+.button {
+  background-color: grey; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Blueya.co</h1>
+  <p>Ur Thrifty Choice</p>
+</div>
+
+<div class="topnav">
+  <a href="../index.html">Home</a>
+  <a href="../shirthp.html">Shirt</a>
+  <a href="../sweatshirthp.html">Sweatshirt</a>
+  <a href="../windbreakerhp.html">Windbreaker</a>
+  <a href="../pantshp.html">Pants</a>
+  <a href="../hoodiehp.html">Hoodie</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Trasher shirt</h2>
+      <h5>Dark</h5>
+     
+      <div class="img" style="height:410px;">
+        <img src="../pic/thrashershirt.jpg" style="width: 20%;">
+      </div>
+        <div><button class="button button" onclick="window.location.href='../shirthp.html';"> Back</button></div>
+        <div class="card">
+      <p>Oversize Collar Short Sleeve Shirt</p>
+      <p>FABRIC DETAILS
+        Body: 73% Cotton, 27% Polyester/ Rib: 82% Cotton, 15% Polyester, 3% Spandex </p>
+       <p> WASHING INSTRUCTIONS:Machine wash cold
+        </p>
+        <p>- The images shown may include colors that are not available.</p>
+      </div>
+    </div>
+ </div> 
+
+
+    
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Information</h2>
+  <p>Contact : 012-345678</p>
+  <p>Address  : Lot 123, Jalan Berjaya, 12345, Batu Pahat, Johor</p>
+  <p>Instagram = @Blueya_co</p>
+  <p>Facebook : Blueya.co</p>
+</div>
+
+</body>
+</html>
