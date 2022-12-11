@@ -1,0 +1,1 @@
+# blueya.shop
